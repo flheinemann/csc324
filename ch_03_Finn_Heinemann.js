@@ -60,7 +60,7 @@ function countBs(string) {
 
 countBs("BllaBlabla")
 
-// Write the more universal version 
+// Write the more universal version
 
 function countChar(string, char) {
     let Chars = 0;
