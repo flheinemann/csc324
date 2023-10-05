@@ -3,7 +3,7 @@
 
 // Exercise 1 - Flattening
 
-let arrays = [[1, 2, 3], [4, 5], [6]];
+let arrays = [[1, 2, 3], [4, 5], 6];
 
 function reduce(array, combine, start) {
     let current = start;
@@ -13,7 +13,11 @@ function reduce(array, combine, start) {
     return current;
   }
 
+
+
 console.log(reduce(arrays,(flat,current) => flat.concat(current),[]));
+
+console.log(arrays.reduce((flat,current) => flat.concat(current)));
 
 // Exercise 2 - Your own Loop
 
