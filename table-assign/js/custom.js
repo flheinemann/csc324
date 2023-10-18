@@ -33,10 +33,9 @@
     link: "https://www.youtube.com/watch?v=O95-w2gACuA"
   }
  ]
-
- 
-
  // complete with code to select and populate the table
+
+// complete with code to select and populate the table
 
 let headers = ["Name", "Date of Birth", "Link"];
 let table = document.querySelector("#bhangra"); //whenever I run this code, I get an error, saying document is not defined;
@@ -59,5 +58,3 @@ for(let i=0; i< artists.length;i++){ //get content for the table cells
 
 
 table.innerHTML = cells;
-
-
